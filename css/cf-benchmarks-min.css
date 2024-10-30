@@ -1,0 +1,200 @@
+/*
+================================================================================
+To use a custom stye sheet, do the following:
+
+1.  Create a copy of this file and give it a unique name, something like 
+    'cf-benchmarks-custom.css'.
+
+2.  In your custom file, edit the values you want to change.
+
+3.  In the Benchmarks management page, click "Options" and select the name of 
+    your custom css file from the list.
+
+4.  Be sure to clear your browser's cache after you make any changes to your css 
+    file, otherwise you might not see your changes reflected immediately on the 
+    web page.
+
+================================================================================
+*/
+
+
+/* 
+================================================================================
+The 'wod-show' div is where individual benchmark WODs are displayed in posts
+================================================================================
+*/
+.wod-show {
+  font-size: 12px;
+  width: 32em;
+  margin: 1em .5em;
+  border-bottom: 1px solid #999999;
+/*  background: #FFFFFF; */
+}
+.wod-show div {
+    padding: .5em .25em;
+}
+.wod-show h3 {
+  margin: 0;
+  padding: .25em;
+  font-size: 1.35em;
+/*
+  color: #3b3b3b;
+  background: #ededed;
+*/
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+.wod-show table {
+    border-style: none;
+}
+.wod-show td {
+    width: 35.5em;
+    font-family: sans-serif;
+    font-size: 1em;
+/*
+    background-color: #FFFFFF;
+    color: #444444;
+*/
+    border-style: none;
+	padding: .5em .5em;
+	vertical-align: top;
+}
+.wod-show img {
+	margin-right: .5em;
+	float: left;
+}
+.wod-show table tr:hover td
+{
+/*	background-color: #F5F5F5; 
+    color: #000000; */
+}
+.wod-show a img {
+    border: none;
+}
+
+
+/* 
+================================================================================
+This is the SCOREBOARD display, which is contained in a div called 'demo-show'
+================================================================================
+*/
+.demo-show {
+  font-size: 12x;
+  width: 32em;
+  margin: 1em .5em;
+}
+.demo-show h3 {
+  margin: 0;
+  padding: .25em;
+  font-size: 1.35em;
+/*
+  color: #3b3b3b;
+  background: #eeefe9;
+*/
+  border: 1px solid #999999;
+  cursor: pointer;
+}
+.demo-show div {
+  padding: .5em .75em;
+/*
+  color: #444444;
+  background-color: #FFFFFF;
+*/
+  border-bottom: 1px solid #999999;
+}
+.hover {
+  cursor: pointer;
+}
+.demo-show ul {
+    list-style-type: none !important;
+	width: 32em;
+}
+.demo-show li {
+  font-size: .95em;
+  font-weight: bold;
+    width: 15em;
+    float:left;
+    padding-right: 1em;
+}
+.demo-show a {
+/*    color: #666666 !important; */
+    text-decoration: none;
+}
+.demo-show a:hover {
+/*    color: #000000 !important; */
+}
+.demo-show a img {
+    border: none;
+}
+.demo-show br {
+	clear: left;
+	margin-bottom: 2em;
+}
+.demo-show table {
+  border: none;
+}
+.demo-show td {
+/*  background-color: #FFFFFF; */
+  border: none;
+}
+demo-show div.wrapper {
+	margin-bottom: 1em;
+}
+
+
+/* 
+================================================================================
+The pop-up window displayed when a user clicks a workout on the scoreboard
+================================================================================
+*/
+#wods
+{
+	font-size: .9em;
+	font-style: italic;
+	background: #fff;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+#scores
+{
+	font-size: 1em;
+	background: #fff;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+#scores table {
+    border-style: none;
+    background-color: #FFFFFF;
+}
+#scores th
+{
+	font-size: 1em;
+	font-weight: bold;
+    background-color: #FFFFFF;
+	color: #222222;
+    border-style: none;
+	padding: 10px 8px;
+}
+#scores td
+{
+	color: #555555;
+	font-size: 1em;
+	padding: 6px 8px;
+    background-color: #FFFFFF;
+    border-style: none;
+	vertical-align: top;
+}
+#scores tbody tr:hover td
+{
+	color: #000000;
+}
+
+
+/* 
+================================================================================
+The font-size value controls how big the datepicker looks on the scoreboard page
+================================================================================
+*/
+.ui-datepicker-div, .ui-datepicker-inline, #ui-datepicker-div { font-size:0.8em; }
